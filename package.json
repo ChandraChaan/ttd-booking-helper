@@ -1,0 +1,12 @@
+{
+  "name": "ttd-booking-helper-js-tests",
+  "private": true,
+  "description": "Tests for assets/fill.js, the script the app injects into the booking page.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test-js/*.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.3"
+  }
+}

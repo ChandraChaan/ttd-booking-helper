@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Mock devotee details step</title></head>
+<body>
+<!-- A made-up devotee form in the shape booking portals commonly use: one row per devotee,
+     Angular-style formcontrolname attributes, a select for gender and ID type, plus
+     a captcha box and a mobile box that must be left alone. Not copied from any real site. -->
+<form>
+  <label for="mobile">Mobile Number</label><input id="mobile" formcontrolname="mobile">
+  <div class="row">
+    <div class="form-group"><label>Name as per ID</label><input formcontrolname="devoteeName"></div>
+    <div class="form-group"><label>Age</label><input formcontrolname="age" type="number"></div>
+    <div class="form-group"><label>Gender</label><select formcontrolname="gender"><option value="">Select</option><option value="M">Male</option><option value="F">Female</option><option value="T">Transgender</option></select></div>
+    <div class="form-group"><label>Photo ID Proof Type</label><select formcontrolname="proofType"><option value="">Select</option><option value="AADHAR">Aadhaar</option><option value="PASSPORT">Passport</option><option value="VOTER">Voter ID</option></select></div>
+    <div class="form-group"><label>ID Proof Number</label><input formcontrolname="proofNumber"></div>
+  </div>
+  <div class="row">
+    <div class="form-group"><label>Name as per ID</label><input formcontrolname="devoteeName"></div>
+    <div class="form-group"><label>Age</label><input formcontrolname="age" type="number"></div>
+    <div class="form-group"><label>Gender</label><select formcontrolname="gender"><option value="">Select</option><option value="M">Male</option><option value="F">Female</option><option value="T">Transgender</option></select></div>
+    <div class="form-group"><label>Photo ID Proof Type</label><select formcontrolname="proofType"><option value="">Select</option><option value="AADHAR">Aadhaar</option><option value="PASSPORT">Passport</option><option value="VOTER">Voter ID</option></select></div>
+    <div class="form-group"><label>ID Proof Number</label><input formcontrolname="proofNumber"></div>
+  </div>
+  <div class="form-group"><label>Enter Captcha</label><input id="cap" formcontrolname="captcha"></div>
+  <div class="form-group"><label>Please provide a valid number</label><input id="hint"></div>
+</form>
+</body></html>
